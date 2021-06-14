@@ -1,0 +1,134 @@
+button,input {
+  font-family: 'Arial, Helvetica, sans-serif';
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.background {
+  width: 100%;
+  display: flex;
+  background-color: rgb(4, 25, 31);
+}
+
+.container {
+  flex: 0 1 750px;
+  width: 100%;
+  margin: auto;
+  padding: 4em;
+}
+
+#user{
+  color: #044e4e;
+  font-size: 40px;
+}
+.screen {
+  position: relative;
+  background: #aeecf7;
+  border-radius: 15px;
+  box-shadow: 5px 5px 40px rgba(70, 160, 160, 0.623);
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  background: #084347;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 5px;
+  height: 5px;
+  margin-left: 3px;
+  border-radius: 8px;
+  background: #c0e9f0;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.button {
+  margin-bottom: 0;
+  text-align: right;
+  position: absolute;
+  bottom: 30px;
+  right:40px;
+}
+
+.app-form-control{
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #4C4B4B;
+  color: #034141;
+  font-size: 14px;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #065f5f;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  margin-left: 20px;
+  color: rgb(16, 112, 129);
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #262626;
+}
+
+@media screen and (max-width: 520px) {
+  *{
+    letter-spacing:1px;
+  }
+  .container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 50px;
+  }
+  .app-form-button{
+    margin-top:5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
