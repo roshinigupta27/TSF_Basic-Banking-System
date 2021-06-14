@@ -1,6 +1,6 @@
 # TSF_Basic-Banking-System
    Hello everyone,
-   I completed this project as task1 while I was interning for The Sparks Foundation #GRIPJUNE21.
+   I completed this project as task1 while I was interning at The Sparks Foundation #GRIPJUNE21.
    
    - Create a simple dynamic website which has the following specs.
    - Start with creating a dummy data in database for upto 10customers. Database options: Mysql, Mongo, Postgres, etc. Customers table will have basic fields such as name,     email,current balance etc. Transfers table will record all transfers                
