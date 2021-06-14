@@ -11,9 +11,9 @@
 
 
 Languages used
-Front-end: HTML, CSS, Bootstrap
-Back-end: php, JavaScript
-Database: SQL(phpMyAdmin)
+- Front-end: HTML, CSS, Bootstrap
+- Back-end: php, JavaScript
+- Database: SQL(phpMyAdmin)
 
-# Landing Page:
+# Home Page:
 <img src="home_page">
