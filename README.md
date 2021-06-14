@@ -16,4 +16,4 @@ Languages used
 - Database: SQL(phpMyAdmin)
 
 # Home Page:
-<img src="home_page">
+<img src="home_page.PNG">
