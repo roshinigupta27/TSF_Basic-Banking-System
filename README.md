@@ -1,5 +1,5 @@
 # TSF_Basic-Banking-System
-   Hello everyone
+   Hello everyone,
    I completed this project as task1 while I was interning for The Sparks Foundation #GRIPJUNE21.
    
    - Create a simple dynamic website which has the following specs.
